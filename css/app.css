@@ -1,0 +1,63 @@
+.home1 input{
+    margin: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(157, 145, 126);
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(132, 131, 118);
+    text-transform: capitalize;
+    background-color: rgb(17, 18, 18);
+    text-shadow: 0px 0px 3px rgb(109, 84, 84);
+}
+.home1 button{
+    cursor: pointer;
+    margin: 30px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(157, 145, 126);
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(132, 131, 118);
+    text-transform: capitalize;
+    background-color: rgb(79, 82, 82);
+    text-shadow: 0px 0px 3px rgb(109, 84, 84);
+}
+.home1 button:hover{
+    background-color: black;
+    color: white;
+    text-shadow: 0px 0px 3px rgb(98, 96, 96);
+}
+.home1{
+    width: 100%;
+
+    text-align: center;
+}
+.home{
+background-color: transparent;
+color: transparent;
+   
+    text-align: center;
+ 
+}
+
+@media screen and (max-width : 740px) {
+    .home1 button{
+        cursor: pointer;
+        margin: 30px;
+        height: 40px;
+        font-size: 20px;
+        color: rgb(157, 145, 126);
+        width: 30%;
+        
+    }
+    .home1 input{
+    
+        height: 30px;
+     
+        width: 35%;
+        
+    }
+}
